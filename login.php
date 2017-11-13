@@ -5,12 +5,12 @@
 			<h1 class="text-center">Login Page</h1>
 			<div class="form-group">
 				<div class="">
-					<input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+					<input type="email" class="form-control" id="email" placeholder="Enter email" name="email" required>
 				</div>
 			</div>
 			<div class="form-group">
 				<div class="">
-					<input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd">
+					<input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd" required>
 				</div>
 			</div>
 			<div class="form-group">
@@ -18,9 +18,9 @@
 					<label><input type="checkbox" name="remember"> Remember me</label>
 				</div>
 			</div>
-			<div class="form-group">
+			<div class="form-group text-center">
 				<div class="">
-					<button type="submit" class="btn btn-default">Submit</button>
+					<button type="submit" class="btn btn-primary">Login</button>
 				</div>
 			</div>
 		</form>
@@ -41,15 +41,15 @@
 			return;
 		}
 		var data={
-			'email' : email,
-			'pwd' : pwd
+			email : email,
+			pwd : pwd
 		}
 		$.ajax({
 			url: 'http://soriee.dev/auth.php',
 			type: 'POST',
 			data: data,
 			success: function(result){
-				$("#div1").html(result);
+				
 			}
 		});
 	});

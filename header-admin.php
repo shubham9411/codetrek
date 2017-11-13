@@ -23,8 +23,7 @@
 				</div>
 				<div class="collapse navbar-collapse" id="myNavbar">
 					<ul class="nav navbar-nav navbar-right">
-						<li><a href="http://soriee.dev/request.php">Request Invite</a></li>
-						<li><a href="http://soriee.dev/login.php">Login</a></li>
+						<li><a href="http://soriee.dev/home.php">Logout</a></li>
 					</ul>
 				</div>
 			</div>
