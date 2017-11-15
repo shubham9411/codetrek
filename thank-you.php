@@ -4,7 +4,7 @@
 		<div class="text-center">
 <?php
 function userAlreadyRegistered(){
-	echo '<h1>User already registered!</h1>';
+	echo '<h1>You have already registered for the Party!</h1>';
 	die();
 }
 function requestInsertError() {

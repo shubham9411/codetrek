@@ -1,7 +1,7 @@
 <?php include('header.php'); ?>
 
 <?php
-session_start();
+// session_start();
 if(isset($_SESSION['is_user_logged_in'])) {
 	header("Location: /dashboard.php");
 }

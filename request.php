@@ -1,11 +1,4 @@
-<?php 
-session_start();
-if(isset($_SESSION['is_user_logged_in'])) {
-	include('header-admin.php');
-} else{
-	include('header.php');
-}
-?>
+<?php include('header.php'); ?>
 <div class="container">
 	<div class="col-xs-12 col-sm-offset-2 col-sm-8 col-md-offset-3 col-md-6">
 		<form class="form-horizontal" action="thank-you.php" method="post" id="inviteForm">

@@ -23,9 +23,8 @@
 				</div>
 				<div class="collapse navbar-collapse" id="myNavbar">
 					<ul class="nav navbar-nav navbar-right">
-						<li><a href="dashboard.php">Dashboard</a></li>
 						<li><a href="/request.php">Request Invite</a></li>
-						<li><a href="logout.php">Logout</a></li>
+						<li><a href="/login.php">Login</a></li>
 					</ul>
 				</div>
 			</div>
