@@ -10,7 +10,7 @@
 		<script src="js/bootstrap.js"></script>
 	</head>
 	<body>
-		<nav class="navbar navbar-default">
+		<nav class="navbar navbar-inverse">
 			<div class="container-fluid">
 				<div class="navbar-header">
 					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -19,11 +19,11 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 					</button>
-					<a class="navbar-brand" href="http://soriee.dev/index.php">Soiree</a>
+					<a class="navbar-brand" href="/">Soiree</a>
 				</div>
 				<div class="collapse navbar-collapse" id="myNavbar">
 					<ul class="nav navbar-nav navbar-right">
-						<li><a href="http://soriee.dev/home.php">Logout</a></li>
+						<li><a href="/">Logout</a></li>
 					</ul>
 				</div>
 			</div>

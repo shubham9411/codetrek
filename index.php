@@ -10,7 +10,7 @@
 	</div> -->
 	<div class="spacer" style="height: 20px"></div>
 	<div class="row text-center">
-		<a href="http://soriee.dev/request.php"><button type="button" class="btn btn-primary">Request Invite</button></a>
+		<a href="/request.php"><button type="button" class="btn btn-primary">Request Invite</button></a>
 	</div>
 </div>
 <?php include('footer.php'); ?>
